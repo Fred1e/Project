@@ -1,16 +1,16 @@
 var tabCmds = [];
 let cm = [];
-function zokou(obj, fonctions) {
+function ezra(obj, fonctions) {
     let infoComs = obj;
     if (!obj.categorie) {
         infoComs.categorie = "General";
     }
     if (!obj.reaction) {
-        infoComs.reaction = "🪰";
+        infoComs.reaction = "❤️‍🔥";
     }
     infoComs.fonction = fonctions;
     cm.push(infoComs);
     // console.log('chargement...')
     return infoComs;
 }
-module.exports = { zokou, Module: zokou, cm };
+module.exports = { ezra, Module: ezra, cm };
